@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "EstateFlow",
+    "slug": "estateflow",
+    "scheme": "estateflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "@sentry/react-native/expo",
+      "expo-asset",
+      "expo-font"
+    ],
+    "extra": {
+      "apiUrl": "http://localhost:4000/graphql",
+      "sentryDsn": ""
+    }
+  }
+}
